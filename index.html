@@ -1,72 +1,115 @@
 ---
 layout: page
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: UbiTok.io
+subtitle: the unstoppable exchange for trading Ethereum tokens
 use-site-title: true
 ---
 
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
-    </a>
-
-    <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-
-    <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <img src="{{ post.image }}">
-        </a>
-      </div>
-      {% endif %}
-      <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
-    </div>
-
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Tags:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
-    </div>
-    {% endif %}
-
-   </article>
-  {% endfor %}
-</div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
+<p>The UbiTok.io exchange runs entirely on the blockchain, which for clients means:</p>
+<ul>
+  <li>no limits, no sign-up, no waiting for support to verify you;</li>
+  <li>it cannot be shutdown by regulators - or even by its creators;</li>
+  <li>you don’t need to trust the exchange employees to look after your coins;</li>
+  <li>ultra-low exchange fees (plus a little gas to power the Ethereum blockchain);</li>
+  <li>total fairness: no preferential treatment for “special” clients.</li>
 </ul>
-{% endif %}
+
+<p>UbiTok.io aims to be the leading venue for trading Ethereum assets on-chain, and to help grow an ecosystem of smart contracts trading with each other (and with you).</p>
+
+<h2 id="see-ubitokio-in-action">See UbiTok.io in Action</h2>
+<p>Beta release coming soon …</p>
+
+<p><img src="/screenshot.png" alt="Demo Screenshot" /></p>
+
+<h2 id="what-can-i-trade-on-ubitokio">What can I trade on UbiTok.io?</h2>
+<p>Almost anything based on Ethereum (such as ERC20 tokens) can be traded on UbiTok.io, either against Ethereum or against other tokens.</p>
+
+<p>This includes coins/tokens connected to organisations in various industries such as:</p>
+<ul>
+  <li><a href="https://coinmarketcap.com/assets/etheroll/">DICE</a> - gambling;</li>
+  <li><a href="https://coinmarketcap.com/assets/augur/">REP (Augur)</a>, <a href="https://coinmarketcap.com/assets/gnosis-gno/">GNO</a> - prediction markets;</li>
+  <li><a href="https://coinmarketcap.com/assets/basic-attention-token/">BAT</a> - advertising;</li>
+  <li><a href="https://coinmarketcap.com/assets/mysterium/">MYST</a> - networking;</li>
+  <li><a href="https://coinmarketcap.com/assets/ethereum-movie-venture/">EVM</a> - movies</li>
+</ul>
+
+<p>As well as tokens backed by assets, including:</p>
+<ul>
+  <li><a href="https://coinmarketcap.com/assets/digixdao/">DGD</a> - physical gold;</li>
+  <li>Decentralized Capital (DC) - Bitcoin, USD, EUR assets;</li>
+  <li><a href="https://coinmarketcap.com/assets/bancor/">BNT (Bancor)</a> - smart reserves</li>
+</ul>
+
+<h2 id="how-does-ubitokio-compare-to-other-decentralized-exchanges">How does UbiTok.io compare to other decentralized exchanges?</h2>
+<p>UbiTok.io is the first decentralized exchange to meet the following three tests:</p>
+<ul>
+  <li>clients don’t need to install any special P2P software;</li>
+  <li>no off-chain matching engine so no servers to shut down or be hacked;</li>
+  <li>offers a <a href="/trading-rules.html">full limit order book</a>, giving clients the best possible price and the exchange features you expect.</li>
+</ul>
+
+<h2 id="whos-behind-ubitokio">Who’s behind UbiTok.io?</h2>
+<p>In one sense, no-one is - the exchange runs entirely on the Ethereum blockchain, and the open source web UI is statically hosted on github (pending move to Swarm).</p>
+
+<p>UbiTok.io was created by <a href="https://www.linkedin.com/in/kieranelby/">Kieran Elby</a>, a technologist with a background in algorithmic trading systems. He previously spent over a decade building secure, high volume gambling sites for leading bookmakers. He first dabbled in bitcoin in 2013 before flipping to Ethereum in 2015.</p>
+
+<p>The UbiTok.io software copyright and other intellectual property is held by <a href="https://bonnag.com">Bonnag Limited</a>, a UK registered company.</p>
+
+<p>We’re interested in growing our team in the near future - contact <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="a5cad5d5cad7d1d0cbccd1ccc0d6e5d0c7ccd1cace8bccca8b">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p>
+
+<h2 id="are-there-downsides-to-being-100-on-chain">Are there downsides to being 100% on-chain?</h2>
+<p>Yes - transaction times are much slower than a centralised exchange. This is hard to avoid - 1000s of Ethereum nodes worldwide need to agree on the state of the orderbook (without trusting each other). You won’t find High Frequency Traders on UbiTok.io - not necessarily a bad thing for everyone else! We’ve also had to reduce the number of price levels offered to allow us to perform best execution on-chain - so you’ll see prices like 1.23, not 1.2298502.</p>
+
+<h2 id="ok-but-how-do-i-withdraw-cash-from-ubitokio">OK, but how do I withdraw cash from UbiTok.io?</h2>
+<p>UbiTok.io does not interface with the traditional banking system, so if you need cash in your bank account, you’ll need to use a third-party to turn your Ethereum or Ethereum tokens into cash in a bank account.</p>
+
+<p>Over time, we’re confident that withdrawing to cash in a bank account will become less necessary for many clients as:</p>
+<ul>
+  <li>more coins and tokens are built on top of Ethereum, so transactions stay on-chain;</li>
+  <li>more companies like <a href="https://www.decentralizedcapital.com/">Decentralized Capital</a> (no connection or endorsement) offer stable Ethereum tokens backed by fiat currency, so you can (effectively) hold fiat currency on-chain;</li>
+  <li>more merchants accept payments in Ethereum or Ethereum-based tokens.</li>
+</ul>
+
+<h2 id="what-are-your-fees-how-do-ubitokio-make-money">What are your fees? How do UbiTok.io make money?</h2>
+<p>Because we’re not dealing with banks, or user sign-ups, or hosting providers, we have much lower costs than traditional exchanges.</p>
+
+<p>We guarantee to:</p>
+<ul>
+  <li>never charge any fees (0%) for depositing or withdrawing Ethereum, or Ethereum-based tokens;</li>
+  <li>never charge any trading fees (0%) for orders that add liquidity to the exchange (that is, orders that rest on the book);</li>
+  <li>never charge a trading fee of more than 0.05% for orders that take liquidity from the exchange (that is, orders that match against an order on the book)</li>
+</ul>
+
+<p>In order to avoid relying on trading fees, we hope to offer value-added products and services that build on top of our core exchange - see roadmap below.</p>
+
+<h2 id="whats-on-the-ubitokio-roadmap">What’s on the UbiTok.io roadmap?</h2>
+<ul>
+  <li>Demo and Testnet (play-money) releases (Aug 2017);</li>
+  <li>Main-net (real-money) release offering small number of pairs, MetaMask/Mist only (Sep 2017);</li>
+  <li>Work in any browser without needing MetaMask or Mist installed (Oct 2017);</li>
+  <li>Javascript APIs for trading on UbiTok.io - e.g. for market making, arbitrage (Nov 2017)</li>
+  <li>Make it easier to trade on the exchange via MyEtherWallet (Nov 2017)</li>
+  <li>Solidity SDK for writing smart contracts that trade on UbiTok.io - e.g. for maintaining a pool of reserves, running ICOs (Dec 2017);</li>
+  <li>Improved user interface and price charts (early 2018);</li>
+  <li>Multi-language web UI (e.g. Simplified Chinese)  (early 2018);</li>
+  <li>Margin trading / lending market-place (tbc);</li>
+  <li>Consider offering our own asset backed tokens where it makes sense (tbc);</li>
+  <li>Host UbiTok.io front-end in Swarm/IPFS for total unstoppability (tbc);</li>
+  <li>Derivative contracts - e.g. futures, options (tbc)</li>
+</ul>
+
+<p>Perhaps you have some ideas for smart tokens that can be traded on our exchange, or for autonomous smart contracts that place orders into the exchange - we look forward to seeing what can be done with a fully on-chain trading venue.</p>
+
+<h2 id="are-you-planning-any-sort-of-ico--crowdsale">Are you planning any sort of ICO / crowdsale?</h2>
+<p>We are considering using crowd-funding to accelerate our product development (and improve our design and marketing).</p>
+<p>We want to make sure we have a working product and a solid business model first though.</p>
+<p>Email fundraising@ubitok.io if you’d like to hear about early opportunities to back us.</p>
+
+<h2 id="give-me-some-technical-details">Give me some technical details!</h2>
+<p>Take a look at our main smart contract here: <a href="https://github.com/kieranelby/UbiTok.io/blob/master/contracts/BookERC20EthV1.sol">BookERC20EthV1.sol</a>.</p>
+<p>We’re going to publish full details of how our contracts work as soon as we’ve reached our alpha release.</p>
+<p>In the meantime, here’s the original sketch showing the key technique (we call it “price packing”) that allows efficient on-chain best execution matching:</p>
+<p><img src="/price-ladder-sketch.png" alt="Price Ladder Sketch" /></p>
+
+<h2 id="i-have-a-question-not-listed-here">I have a question not listed here!</h2>
+<p>Sure, email us at help@ubitok.io.</p>
