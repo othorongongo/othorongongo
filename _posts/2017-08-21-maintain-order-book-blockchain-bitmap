@@ -1,6 +1,9 @@
-# Maintaining an Order Book on the Blockchain - Price Bitmap
-
-Kieran Elby, 2017-08-21
+---
+layout: post
+title: Maintaining an Order Book on the Blockchain (Part 1)
+subtitle: Introducing the price bitmap technique used to help match orders entirely on-chain
+tags: [how-it-works]
+---
 
 In our first UbiTok.io blog post, I'm going to introduce the technique we've developed to efficiently maintain an order book entirely on the Ethereum blockchain, including performing best execution matching.
 
