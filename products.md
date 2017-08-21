@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Products
-subtitle: What can be traded on the UbiTok.io exchange
+subtitle: tokens that can be traded on the UbiTok.io exchange
 ---
 
 ## Live Products
