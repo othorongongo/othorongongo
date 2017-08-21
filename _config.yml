@@ -3,8 +3,8 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-url: "https://bonnag.github.io/ubitok-www"
-baseurl: "/ubitok-www"
+url: "https://ubitok.io"
+baseurl: "/"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
@@ -28,7 +28,7 @@ avatar: "/img/ubitok-square-logo.svg"
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # annoyingly baseurl doesn't work here
-title-img: "/ubitok-www/img/ubitok-logo.svg"
+title-img: "/img/ubitok-logo.svg"
 
 # --- Footer options --- #
 
