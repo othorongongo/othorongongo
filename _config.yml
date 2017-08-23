@@ -18,7 +18,7 @@ description: the unstoppable Ethereum exchange
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "/"
+  Home: "https://ubitok.io"
   Blog: "blog"
   Exchange: "products"
 
