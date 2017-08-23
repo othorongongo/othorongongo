@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Products
-subtitle: tokens that can be traded on the UbiTok.io exchange
+subtitle: books offered on the UbiTok.io exchange
 ---
 
 ## Live Products
 
-Beta release coming in September 2017.
+Main-net release coming September/October 2017.
 
 ## Test Products
 
@@ -24,4 +24,4 @@ Beta release coming in September 2017.
 |MYST-ETH|[Mysterium](https://coinmarketcap.com/assets/mysterium/)|networking|
 |BAT-ETH|[Basic Attention Token](https://coinmarketcap.com/assets/basic-attention-token/)|advertising|
 |EVM-ETH|[Ethereum Movie Venture](https://coinmarketcap.com/assets/ethereum-movie-venture/)|movies|
-|BNT-ETH|[Ethereum Movie Venture](https://coinmarketcap.com/assets/bancor/)|smart reserves|
+|BNT-ETH|[Bancor](https://coinmarketcap.com/assets/bancor/)|smart reserves|
