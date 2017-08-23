@@ -67,7 +67,11 @@ Example 1: The FOO/ETH Book has an offer to sell 10,000 FOO @ 1.50. You place an
 
 Example 2: You place an order to buy 200 FOO @ 1.50, which costs you 300 ETH. It is not matched and rests on the book. Another client places an order to sell 1000 FOO @ 1.50, of which 200 FOO (300 ETH) can be matched with you. They are the taker, so they pay a fee of 0.15 ETH (0.05% of 300), and receive the remaining 299.85 ETH. You receive the full 200 FOO.
 
-Fees paid by traders are held in the book contract and are periodically distributed to investors.
+Alternatively, and subject to availability, UbiTok.io Reward Tokens (UBI) can be used instead of ETH (at a fixed exchange rate) to pay UbiTok.io exchange fees on all UbiTok.io markets that have ETH as a currency (base or counter).
+
+Example 3: You prefer to pay fees using your UBI tokens, so you deposit 10 UBI into the FOO/ETH book contract to cover future fees. You then sell some FOO tokens for 100 ETH. Instead of 0.05 ETH being deducted from your 100 ETH, 5 UBI is deducted from your UBI balance.
+
+Fees paid by traders are held in the book contract on behalf of the contract creator.
 
 ### Order Lifecycle
 
