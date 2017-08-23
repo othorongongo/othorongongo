@@ -18,6 +18,7 @@ description: the unstoppable Ethereum exchange
 
 # List of links in the navigation bar
 navbar-links:
+  Home: "/"
   Blog: "blog"
   Exchange: "products"
 
