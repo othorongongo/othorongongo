@@ -85,10 +85,14 @@
 
   {% if page.share-img %}
   <meta property="og:image" content="{{ page.share-img }}" />
+  {% elsif site.share-img %}
+  <meta property="og:image" content="{{ site.url }}{{ site.share-img }}" />
+  {% endif %}
   {% elsif site.avatar %}
   <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
   
+
 
   <!-- Twitter summary cards -->
   <meta name="twitter:card" content="summary" />
