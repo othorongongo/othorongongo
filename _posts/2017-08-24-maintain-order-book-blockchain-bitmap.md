@@ -134,3 +134,5 @@ function walkBookSideFrom(uint16 priceStart)
 
 
 Of course, we still have to record the orders at each price - more about that in a future post.
+
+We don't have a comments section, but you can discuss this post on [reddit.com/r/ethdev](https://www.reddit.com/r/ethdev/comments/6vudvj/maintaining_an_order_book_entirely_onchain_using/).
