@@ -85,14 +85,10 @@
 
   {% if page.share-img %}
   <meta property="og:image" content="{{ page.share-img }}" />
-  {% elsif site.share-img %}
-  <meta property="og:image" content="{{ site.url }}{{ site.share-img }}" />
-  {% endif %}
-  {% elsif site.avatar %}
-  <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
+  {% else %}
+  <meta property="og:image" content="{{ site.url }}/img/ubitok-og1200-square-darkjelly.png" />
   {% endif %}
   
-
 
   <!-- Twitter summary cards -->
   <meta name="twitter:card" content="summary" />
