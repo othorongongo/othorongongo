@@ -32,7 +32,7 @@ Behind the scenes, the ordered map would probably use a [Tree](https://en.wikipe
 
 On paper, trees are great - they let us cheaply add and remove entries, as well as walk through the entries in order of price starting from a given price.
 
-![tree diagram](img/tree-diagram.png)
+![tree diagram](../img/tree-diagram.png)
 
 However, the Ethereum Virtual Machine is not a normal programming environment. In particular, reading from and writing to storage costs gas, which has to be paid by the user. This is fair enough - we have to compensate the Ethereum network for hosting our order book on thousands of computers.
 
@@ -42,7 +42,7 @@ So what can we do instead? How about a linked list - they're predictable, cheap 
 
 That's true, but we want to walk through the open orders starting at a given price. A linked only lets us start at one end of the list - there's no way to jump to the middle. It would be dangerous to have a contract where one person adding more orders makes everyone else have to spend more gas, especially since there is a limit on how much gas a transaction can use.
 
-![list diagram](img/list-diagram.png)
+![list diagram](../img/list-diagram.png)
 
 Now, we could keep our linked list sorted so that the most generous prices are at the start - that would work well for matching orders. However, a client wanting to add an order further down the book would have to spend more gas to skip to where their new order belongs. So that won't work well on-chain either.
 
@@ -58,7 +58,7 @@ We can use one bit for each price to record if there are any open orders at that
 
 Since there's 10800 prices, we need 10800 bits:
 
-![bitmap diagram](img/bitmap-diagram.png)
+![bitmap diagram](../img/bitmap-diagram.png)
 
 One nice thing about the Ethereum Virtual Machine is that it uses 256-bit words - which means that just 43 storage locations can hold all 10800 bits.
 
