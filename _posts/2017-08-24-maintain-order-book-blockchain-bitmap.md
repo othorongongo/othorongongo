@@ -73,8 +73,9 @@ Here's some solidity code - slightly simplified from the [real contract](https:/
 // array of bits representing prices with orders
 uint256[43] occupiedPriceBitmaps;
 
-// not shown
-function foundOrdersAt(uint16 priceIndex) { ... }
+function foundOrdersAt(uint16 priceIndex) public constant {
+    // not shown
+}
 
 // call foundOrdersAt with all the prices above priceStart
 // that have one or more open orders
@@ -96,7 +97,7 @@ function walkBookSideFrom(uint16 priceStart)
 
   uint word = occupiedPriceBitmaps[wordIndex] >> bitIndex;
 
-  uint priceIndex; // we reconstruct the price when needed
+  uint16 priceIndex; // we reconstruct the price when needed
   
   // loop through from the start word up to the penultimate one
 
@@ -128,6 +129,7 @@ function walkBookSideFrom(uint16 priceStart)
   }
 
 }
+
 ```
 
 
