@@ -32,19 +32,17 @@ Behind the scenes, the ordered map would probably use a [Tree](https://en.wikipe
 
 On paper, trees are great - they let us cheaply add and remove entries, as well as walk through the entries in order of price starting from a given price.
 
-(TODO - tree diagram)
+![tree diagram](img/tree-diagram.png)
 
 However, the Ethereum Virtual Machine is not a normal programming environment. In particular, reading from and writing to storage costs gas, which has to be paid by the user. This is fair enough - we have to compensate the Ethereum network for hosting our order book on thousands of computers.
 
 Sadly, in this environment a tree is a bad choice because they're only cheap on average. The worst case behaviour can be quite bad - for example, some poor user who just wants to cancel her order could end up paying a huge gas fee because removing her order ends up rebalancing the whole tree (which involves many writes).
 
-(TODO - tree rebalance diagram)
-
 So what can we do instead? How about a linked list - they're predictable, cheap to update and easy to walk through?
 
 That's true, but we want to walk through the open orders starting at a given price. A linked only lets us start at one end of the list - there's no way to jump to the middle. It would be dangerous to have a contract where one person adding more orders makes everyone else have to spend more gas, especially since there is a limit on how much gas a transaction can use.
 
-(TODO - linked list diagram)
+![list diagram](img/list-diagram.png)
 
 Now, we could keep our linked list sorted so that the most generous prices are at the start - that would work well for matching orders. However, a client wanting to add an order further down the book would have to spend more gas to skip to where their new order belongs. So that won't work well on-chain either.
 
@@ -60,12 +58,77 @@ We can use one bit for each price to record if there are any open orders at that
 
 Since there's 10800 prices, we need 10800 bits:
 
-(TODO - bitmask diagram)
+![bitmap diagram](img/bitmap-diagram.png)
 
 One nice thing about the Ethereum Virtual Machine is that it uses 256-bit words - which means that just 43 storage locations can hold all 10800 bits.
 
 For example, suppose we have an open sell order at a price of 1.23. It turns out that 1.23 is the 5423rd most generous sell price possible, so we need to set the 5423rd bit to 1. Since each storage location holds 256 bits, more precisely we need to set the 47th bit of the 21st storage location, since 21 x 256 + 47 is 5423.
 
 By using this bitmap technique we can cheaply record and check which prices have orders and quickly skip to a particular price. We can also walk through adjacent prices without having to read from storage - we just look at different bits in the word we already read.
+
+Here's some solidity code - slightly simplified from the [real contract](https://github.com/bonnag/ubitok-contracts/blob/master/contracts/BookERC20EthV1.sol) - showing the idea:
+
+```Solidity
+
+// array of bits representing prices with orders
+uint256[43] occupiedPriceBitmaps;
+
+// not shown
+function foundOrdersAt(uint16 priceIndex) { ... }
+
+// call foundOrdersAt with all the prices above priceStart
+// that have one or more open orders
+function walkBookSideFrom(uint16 priceStart)
+        public constant returns (uint count) {
+
+  // figure out which bit of which word we start from
+  
+  uint wordIndex = priceStart / 256;
+  uint bitIndex = priceStart % 256;
+
+  // figure out which bit of which word we end at
+
+  uint priceEnd = 10799;
+  uint wordEnd = priceEnd / 256;
+  uint bitEnd = priceEnd % 256;
+
+  // the current word (with examined/skipped bits shifted off)
+
+  uint word = occupiedPriceBitmaps[wordIndex] >> bitIndex;
+
+  uint priceIndex; // we reconstruct the price when needed
+  
+  // loop through from the start word up to the penultimate one
+
+  while (wordIndex < wordEnd) {
+    if (word == 0 || bitIndex == 256) {
+      // no more non-zero bits or no more bits in this word
+      bitIndex = 0;
+      wordIndex++;
+      word = occupiedPriceBitmaps[wordIndex];
+    } else {
+      if ((word & 1) != 0) {
+        priceIndex = uint16(wordIndex * 256 + bitIndex);
+        foundOrdersAt(priceIndex);
+      }
+      bitIndex++;
+      word >> 1;
+    }
+  }
+
+  // in the final word we may have to stop earlier
+
+  while (bitIndex <= bitEnd && word != 0) {
+    if ((word & 1) != 0) {
+      priceIndex = uint16(wordIndex * 256 + bitIndex);
+      foundOrdersAt(priceIndex);
+    }
+    bitIndex++;
+    word >> 1;
+  }
+
+}
+```
+
 
 Of course, we still have to record the orders at each price - more about that in a future post.
