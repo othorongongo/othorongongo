@@ -6,7 +6,7 @@ subtitle: books offered on the UbiTok.io exchange
 
 ## Live Products
 
-Main-net release coming September/October 2017.
+Main-net release coming October 2017.
 
 ## Test Products
 
@@ -19,9 +19,15 @@ Main-net release coming September/October 2017.
 
 |UbiTok.io Book|CoinMarketCap|Description|
 |------|----|----|
-|DICE-ETH|[Etheroll](https://coinmarketcap.com/assets/etheroll/)|gambling|
+|ZRX-ETH|[0x](https://coinmarketcap.com/assets/0x/)|trading|
 |REP-ETH|[Augur](https://coinmarketcap.com/assets/augur/)|prediction markets|
-|MYST-ETH|[Mysterium](https://coinmarketcap.com/assets/mysterium/)|networking|
-|BAT-ETH|[Basic Attention Token](https://coinmarketcap.com/assets/basic-attention-token/)|advertising|
-|EVM-ETH|[Ethereum Movie Venture](https://coinmarketcap.com/assets/ethereum-movie-venture/)|movies|
 |BNT-ETH|[Bancor](https://coinmarketcap.com/assets/bancor/)|smart reserves|
+|BAT-ETH|[Basic Attention Token](https://coinmarketcap.com/assets/basic-attention-token/)|advertising|
+|DNT-ETH|[District0x](https://coinmarketcap.com/assets/district0x/)|virtual organizations and communities|
+|EVM-ETH|[Ethereum Movie Venture](https://coinmarketcap.com/assets/ethereum-movie-venture/)|movies|
+|DICE-ETH|[Etheroll](https://coinmarketcap.com/assets/etheroll/)|gambling|
+|MLN-ETH|[Melon](https://coinmarketcap.com/assets/melon/)|fund management|
+|MYST-ETH|[Mysterium](https://coinmarketcap.com/assets/mysterium/)|networking|
+|OMG-ETH|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
+|SNT-ETH|[Status](https://coinmarketcap.com/assets/status/)|mobile|
+
