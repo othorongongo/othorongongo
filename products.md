@@ -31,3 +31,4 @@ Main-net release coming October 2017.
 |OMG-ETH|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
 |SNT-ETH|[Status](https://coinmarketcap.com/assets/status/)|mobile|
 
+Do contact us if you'd like a particular token added.
