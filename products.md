@@ -12,8 +12,8 @@ Main-net release coming October 2017.
 
 |UbiTok.io Book|CoinMarketCap|Description|
 |------|----|----|
-|[DEMO-ETH](http://ubitok.io/exchange/?pairId=DEMO-ETH)|n/a|simulated demonstration exchange|
-|[TESTR-ETH](http://ubitok.io/exchange/?pairId=TESTR-ETH)|n/a|play-money book on "Ropsten" testnet|
+|[DEMO-ETH](http://ubitok.io/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
+|[TESTR-ETH](http://ubitok.io/exchange/?pairId=TESTR-ETH&vu=1)|n/a|play-money book on "Ropsten" testnet|
 
 ## Products Coming Soon
 
