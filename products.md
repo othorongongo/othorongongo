@@ -14,7 +14,7 @@ The following products are undergoing beta testing on the main-net:
 
 |UbiTok.io Book|CoinMarketCap|Description|
 |------|----|----|
-|OMG-ETH|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
+|[OMG-ETH](http://ubitok.io/exchange/?pairId=OMG-ETH&vu=1)|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
 
 ## Test Products
 
