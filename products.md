@@ -6,7 +6,15 @@ subtitle: books offered on the UbiTok.io exchange
 
 ## Live Products
 
-Main-net release coming October 2017.
+Full main-net release coming October 2017.
+
+## Beta Products
+
+The following products are undergoing beta testing on the main-net:
+
+|UbiTok.io Book|CoinMarketCap|Description|
+|------|----|----|
+|OMG-ETH|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
 
 ## Test Products
 
@@ -14,6 +22,7 @@ Main-net release coming October 2017.
 |------|----|----|
 |[DEMO-ETH](http://ubitok.io/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
 |[TESTR-ETH](http://ubitok.io/exchange/?pairId=TESTR-ETH&vu=1)|n/a|play-money book on "Ropsten" testnet|
+|[TESTI-ETH](http://ubitok.io/exchange/?pairId=TESTI-ETH&vu=1)|n/a|play-money book on "Rinkeby" testnet|
 
 ## Products Coming Soon
 
