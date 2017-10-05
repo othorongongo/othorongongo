@@ -95,6 +95,24 @@ Orders in some Statuses (such as Rejected and Done) have a further Reason Code e
 - Too Many Matches - The limit on matches prior to entering the book has been reached (see Gas Costs section);
 - Client Cancel - You cancelled the order.
 
+### Confirmations, Forks, and Orphaned Transactions
+
+UbiTok.io runs entirely on the Ethereum blockchain. The nature of the blockchain means that thousands of Ethereum nodes around the world are busy working to collectively agree on the state of the blockchain - in particular, to agree on which UbiTok.io orders are in the order book, and on the state of each order.
+
+Like all blockchains, sometimes this agreement (or consensus) isn't reached - groups of Ethereum nodes can temporarily disagree about which transactions (such as orders being placed) have been accepted into the blockchain. Normally, these disagreements are quickly resolved (in under a minute) and one group's view of the world wins, with transactions from the losing group being merged in where possible. (You might find the terms "Uncle Block" or "Chain Re-organization" useful if you want to read more).
+
+Unfortunately, it is still possible (though rare) that a transaction can appear to have been accepted into the blockchain, but a short while later turn out to be rejected (that is, not confirmed).
+
+If this occurs for an order-related transaction then clients may see odd behaviour in the UbiTok.io Web UI such as:
+
+ - depth appearing in the order book, only to disappear again;
+ - ‎an open order appearing to be filled, only for it to return to an unmatched state;
+ - ‎an apparently cancelled order returning to an open state.
+
+We are working with the Ethereum development community to establish and apply best practices for how to shield clients from this uncertainty, or to convey it meaningfully. Unfortunately the approach taken by centralized exchanges to wait for a certain number of confirmations on deposit doesn't work on-chain - it's not just deposits that can be reverted.
+
+For now, we recommend clients mitigate against this risk by waiting several Ethereum blocks (e.g. 12 blocks) before treating a trade or order state as final. This is particularly important for clients arbitraging between UbiTok.io and off-chain exchanges.
+
 ### New Book Formation
 
 From time to time, UbiTok.io's software suppliers may release a new exchange contract for a trading pair and make the UbiTok.io web UI point to the new contract. For example, we might do this to improve performance, add features, or adjust minimum order sizes. 
