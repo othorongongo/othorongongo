@@ -57,3 +57,7 @@ When we click 'Place Buy Order', MetaMask will pop-up its "Confirm Transaction" 
 Here comes the video:
 
 ![Buy Tokens with MetaMask Video](../buy-tokens-with-metamask.gif)
+
+Finally, you should have 0.3998 OMG in your "Exchange" OMG balance (after the teeny 0.0002 OMG fee). Click "[- Wtd]" button to withdraw to your MetaMask account.
+
+Congratulations - you're an unstoppable trader now!

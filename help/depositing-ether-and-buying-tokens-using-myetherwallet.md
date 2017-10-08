@@ -55,3 +55,7 @@ When you click 'Place Buy Order', UbiTok.io will ... TODO - explain copy-and-pas
 Here comes the video:
 
 ![Buy Tokens with MyEtherWallet Video](../buy-tokens-with-mew.gif)
+
+Finally, you should have 0.3998 OMG in your "Exchange" OMG balance (after the teeny 0.0002 OMG fee). Click "[- Wtd]" button to withdraw to your MyEtherWallet account.
+
+Congratulations - you're an unstoppable trader now!
