@@ -7,6 +7,8 @@ title: Help!
 
  - [Depositing Ether and Buying Tokens using MetaMask](depositing-ether-and-buying-tokens-using-metamask)
  - [Depositing Ether and Buying Tokens using MyEtherWallet](depositing-ether-and-buying-tokens-using-myetherwallet)
+ - Depositing Tokens and Selling using MetaMask (coming soon)
+ - Depositing Tokens and Selling using MyEtherWallet (coming soon)
 
 ### Trading Rules and Order Types
 

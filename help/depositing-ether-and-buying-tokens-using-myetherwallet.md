@@ -30,15 +30,20 @@ In order to use your Ether to buy tokens, you'll need to deposit it into the Ubi
 
 Use the "[+ Dep]" button next to your ETH balance to bring up the Deposit ETH form.
 
-When you click the "Deposit Eth" button, UbiTok.io will ... TODO - explain copy-and-pasting into MyEtherWallet.
+When you click the "Deposit Eth" button, UbiTok.io will not send anything - instead it will tell you what to send.
+
+You'll need to copy-and-paste the details (address, amount, gas and data) into MyEtherWallet, then generate and send the transaction in MyEtherWallet.
+
+Make sure to include the "Data" - you might need to click "+ Advanced: Add Data" in MyEtherWallet.
 
 Here's a video:
 
-![Depositing Ether with MyEtherWallet Video](../buy-tokens-with-mew.gif)
+![Depositing Ether with MyEtherWallet Video](../deposit-ether-with-mew.gif)
 
 Tips:
  - Make sure you leave some Ether in your account since you'll need it to pay gas fees;
- - When the Ethereum network is busy, transactions can take a while - increasing the "gas price" can help (at the cost of paying a higher fee);
+ - You can check the progress of your transaction using the "Transaction History" in MyEtherWallet;
+ - MyEtherWallet might show a error while you're filling in the form - this will go away once the gas and data are complete.
 
 After the transaction has completed, you should see your "Exchange" ETH balance on UbiTok.io increase (and your "External" balance decrease).
 
@@ -50,11 +55,13 @@ We'll make sure 'Buy OMG' is selected, enter the number of tokens we want to buy
 
 "Good Till Cancel" means that even if the offer we saw disappears, our order to buy will still stand - it will be added to the book and (hopefully) filled by someone else. If we don't want that, we could choose "Immediate or Cancel". Full details of terms and order statuses are covered in our ![Trading Rules](../../trading-rules).
 
-When you click 'Place Buy Order', UbiTok.io will ... TODO - explain copy-and-pasting into MyEtherWallet.
+When you click 'Place Buy Order', UbiTok.io will will not send anything - instead it will tell you what to send.
+
+You'll need to copy-and-paste the details (address, amount, gas and data) into MyEtherWallet, then generate and send the transaction in MyEtherWallet.
 
 Here comes the video:
 
-![Buy Tokens with MyEtherWallet Video](../buy-tokens-with-mew.gif)
+![TODO - Buy Tokens with MyEtherWallet Video](../buy-tokens-with-mew.gif)
 
 Finally, you should have 0.3998 OMG in your "Exchange" OMG balance (after the teeny 0.0002 OMG fee). Click "[- Wtd]" button to withdraw to your MyEtherWallet account.
 
