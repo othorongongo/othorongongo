@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Tutorial - Depositing Ether and Buying Tokens using MetaMask
+title: Tutorial
+subtitle: Depositing Ether and Buying Tokens using MetaMask
 ---
 
 In this tutorial, we're going to deposit Ether into UbiTok.io and use it to buy OMG tokens.
@@ -25,8 +26,28 @@ Here's a little video showing what to do:
 
 ### Depositing Ether
 
-TODO
+Now UbiTok.io knows to use your MetaMask account, you should see your Ethereum address balance appear as an "External" ETH balance in UbiTok.io.
+
+In order to use your Ether to buy tokens, you'll need to deposit it into the UbiTok.io book contract. Note that each pair is a separate contract.
+
+Use the "[+ Dep]" button next to your ETH balance to bring up the Deposit ETH form. Here's a video:
+
+![Buy Tokens with MetaMask Video](../buy-tokens-with-metamask.gif)
+
+Tips:
+ - Make sure you leave some Ether in your account since you'll need it to pay gas fees;
+ - When the Ethereum network is busy, transactions can take a while - increasing the "gas price" can help (at the cost of paying a higher fee);
+
+After the transaction has completed, you should see your "Exchange" ETH balance on UbiTok.io increase (and your "External" balance decrease).
 
 ### Buying Tokens
 
-TODO
+Now we have an "Exchange" ETH balance, we're going to use it to buy 4 OMG tokens, taking the price of 0.0330 we can see offered in the "Ask" side of the book.
+
+We'll make sure 'Buy OMG' is selected, enter the number of tokens we want to buy in the amount box, fill in the price box by clicking the price we want, then choose the default terms of "Good Till Cancel (no gas topup)".
+
+"Good Till Cancel" means that even if the offer we saw disappears, our order to buy will still stand - it will be added to the book and (hopefully) filled by someone else. If we don't want that, we could choose "Immediate or Cancel". Full details of terms and order statuses are covered in our ![Trading Rules](../../trading-rules).
+
+Here comes the video:
+
+![Buy Tokens with MetaMask Video](../buy-tokens-with-metamask.gif)
