@@ -8,7 +8,7 @@ In this tutorial, we're going to deposit ERC20 Tokens into UbiTok.io and sell th
 
 This version of the tutorial assumes you've installed and are using the [MetaMask Chrome Extension](https://metamask.io/).
 
-If you don't want to (or can't) use MetaMask, we have another [version for MyEtherWallet users](../depositing-tokens-and-selling-using-myetherwallet.md).
+If you don't want to (or can't) use MetaMask, we have another [version for MyEtherWallet users](../depositing-tokens-and-selling-using-myetherwallet).
 
 ### ScreenCast
 
