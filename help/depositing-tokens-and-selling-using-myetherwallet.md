@@ -17,7 +17,7 @@ To give you the idea, we're planning to make a little video showing the process 
 Unfortunately we haven't done one for depositing tokens with MetaMask yet - in the meantime you could look at the videos in our similar tutorials:
 
  - [Depositing Ether and Buying Tokens using MyEtherWallet](depositing-ether-and-buying-tokens-using-myetherwallet)
- - [Depositing Tokens and Selling them using MetaMask] (depositing-tokens-and-selling-using-metamask)
+ - [Depositing Tokens and Selling them using MetaMask](depositing-tokens-and-selling-using-metamask)
 
 ### Choosing MyEtherWallet
 
@@ -64,7 +64,6 @@ Now that you've approved the exchange to receive 5 of your OMG tokens, click "Co
 
 As before, UbiTok.io will tell you what transaction you need to make via MyEtherWallet's "Send Ether and Tokens" page - you'll need to copy-and-paste the details  (address, amount, gas and data) into MyEtherWallet, then hit Generate and Send Transaction.
 
-Make sure to include the "Data" - you might need to click "+ Advanced: Add Data" in MyEtherWallet.
 This time once the transaction has completed, we can see back up in the balance section that our "Exchange" OMG balance is now 5. We're ready to sell our tokens.
 
 ### Selling Tokens
