@@ -8,7 +8,7 @@ In this tutorial, we're going to deposit ERC20 Tokens into UbiTok.io and sell th
 
 This version of the tutorial assumes you have a wallet on [MyEtherWallet.com](https://www.myetherwallet.com/) you want to use.
 
-If you don't want to use MyEtherWallet, we have another [version for MetaMask users](../depositing-tokens-and-selling-using-metamask.md).
+If you don't want to use MyEtherWallet, we have another [version for MetaMask users](../depositing-tokens-and-selling-using-metamask).
 
 ### ScreenCast
 
