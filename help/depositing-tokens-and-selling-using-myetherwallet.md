@@ -72,9 +72,9 @@ Now we have an "Exchange" OMG balance, we're going to offer to sell our tokens.
 
 Let's pretend we're not happy with the best bid offered in the order book - we're going to set our own price and hope someone fills our order later.
 
-We'll make sure 'SELL OMG' is selected, enter the number of tokens we want to buy in the amount box, and enter the price we're hoping for in the price box.
+We'll make sure 'SELL OMG' is selected, enter the number of tokens we want to sell in the amount box, and enter the price we're hoping for in the price box.
 
-The default "Good Till Canel" terms would be ok, but for this tutorial since we're offering a price (rather than taking someone else's) we're going to choose "Maker Only" terms.
+The default "Good Till Cancel" terms would be ok, but for this tutorial since we're offering a price (rather than taking someone else's) we're going to choose "Maker Only" terms.
 
 Choosing "Maker Only" means that our order will be cancelled if it would immediately get matched (as might happen if our price turned out to be too generous). It's also a bit cheaper in terms of gas. Full details of terms and order statuses are covered in our ![Trading Rules](../../trading-rules).
 
