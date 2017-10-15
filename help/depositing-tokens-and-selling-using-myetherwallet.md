@@ -40,7 +40,7 @@ Depositing ERC20 tokens to a contract is a two-step process - first you have to 
 
 ### Depositing Tokens - Approve
 
-Step 1 of the Deposit OMG form shows the "current approved amount" as zero. We're going to deposit 5 OMG, so we need to enter 5 in the new approved amount and click Approve.
+Step 1 of the Deposit OMG form shows the "current approved amount" as zero. We're going to deposit 10 OMG, so we need to enter 10 in the new approved amount and click Approve.
 
 When you click 'Approve', UbiTok.io will tell you what transaction you need to make via MyEtherWallet's "Send Ether and Tokens" page.
 
@@ -53,15 +53,15 @@ Tips:
  - You can check the progress of your transaction using the "Transaction History" in MyEtherWallet;
  - MyEtherWallet might show a error while you're filling in the form - this will go away once the gas and data are complete.
 
-After the transaction has completed, you should see the "current approved amount" change to 5. However, we still can't use it - onto the next step.
+After the transaction has completed, you should see the "current approved amount" change to 10. However, we still can't use it - onto the next step.
 
 ### Depositing Tokens - Collect
 
-Now that you've approved the exchange to receive 5 of your OMG tokens, click "Collect" in Step 2 of the Deposit OMG form to tell the exchange contract to actually receive them.
+Now that you've approved the exchange to receive 10 of your OMG tokens, click "Collect" in Step 2 of the Deposit OMG form to tell the exchange contract to actually receive them.
 
 As before, UbiTok.io will tell you what transaction you need to make via MyEtherWallet's "Send Ether and Tokens" page - you'll need to copy-and-paste the details  (address, amount, gas and data) into MyEtherWallet, then hit Generate and Send Transaction.
 
-This time once the transaction has completed, we can see back up in the balance section that our "Exchange" OMG balance is now 5. We're ready to sell our tokens.
+This time once the transaction has completed, we can see back up in the balance section that our "Exchange" OMG balance is now 10. We're ready to sell our tokens.
 
 ### Selling Tokens
 
