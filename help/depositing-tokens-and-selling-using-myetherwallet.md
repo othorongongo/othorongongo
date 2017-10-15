@@ -12,12 +12,9 @@ If you don't want to use MyEtherWallet, we have another [version for MetaMask us
 
 ### ScreenCast
 
-To give you the idea, we're planning to make a little video showing the process from start to finish.
+To give you the idea, we've made a little video showing the process from start to finish:
 
-Unfortunately we haven't done one for depositing tokens with MetaMask yet - in the meantime you could look at the videos in our similar tutorials:
-
- - [Depositing Ether and Buying Tokens using MyEtherWallet](depositing-ether-and-buying-tokens-using-myetherwallet)
- - [Depositing Tokens and Selling them using MetaMask](depositing-tokens-and-selling-using-metamask)
+![Deposit and Sell Tokens Video](../deposit-and-sell-tokens-with-mew.gif)
 
 ### Choosing MyEtherWallet
 
