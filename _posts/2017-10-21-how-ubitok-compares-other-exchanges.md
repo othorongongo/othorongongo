@@ -62,6 +62,13 @@ This is where UbiTok.io currently suffers, particularly for smaller orders and v
 
 We're confident though that the Ethereum Foundation and other Ethereum developers will make Ethereum transactions faster, cheaper, and more scalable - making this less and less of a problem.
 
+### Trading Fees
+
+- UbiTok.io - 0.05% on liquidity taken (applied per order)
+- EtherDelta - 0.30% on liquidity taken (applied per order)
+- 0x - relayer fees are a bit of an unknown at the time of writing
+- Centralized exchanges - typically up to 0.20% on trades depending on monthly volume
+
 ### Transparency and Fairness
 
 UbiTok.io does well here - our source code can be examined on github, and the smart contract enforces price-time priority for orders. There's no special treatment for preferred clients or any way to spoof orders that aren't backed by real funds. UbiTok.io is somewhat reliant on the fairness of the Ethereum miners though.
