@@ -12,7 +12,7 @@ UbiTok.io uses Limit Orders to ensure you get a fair price.
 
 A Limit Order lets you set your own price when buying or selling.
 
-UbiTok.io guarantees Best Execution - for example, if you enter an order to buy at a price of 1.30, and there's an existing order in the book to sell at 1.25, you'll get the better (for you) price of 1.25.
+UbiTok.io guarantees Best Execution - for example, if you enter an order to buy at a price of 1.30, and there's an existing order in the book to sell at 1.25, you'll get the better (for you) price of 1.25. If your order matches several resting orders in the book, price-time priority is applied to decide which orders get matched first.
 
 The size of the order is always specified in the base currency internally (whether buying or selling). For example, on an UBI/ETH book where UBI tokens are being bought and sold for Ether, you would enter the number of UBI tokens you want to buy or sell.
 
@@ -67,9 +67,9 @@ Example 1: The FOO/ETH Book has an offer to sell 10,000 FOO @ 1.50. You place an
 
 Example 2: You place an order to buy 200 FOO @ 1.50, which costs you 300 ETH. It is not matched and rests on the book. Another client places an order to sell 1000 FOO @ 1.50, of which 200 FOO (300 ETH) can be matched with you. They are the taker, so they pay a fee of 0.15 ETH (0.05% of 300), and receive the remaining 299.85 ETH. You receive the full 200 FOO.
 
-Alternatively, and subject to availability, UbiTok.io Reward Tokens (UBI) can be used instead of ETH (at a fixed exchange rate) to pay UbiTok.io exchange fees on all UbiTok.io markets that have ETH as a currency (base or counter).
+Alternatively, and subject to availability, UbiTok.io Reward Tokens (UBI) can be used instead of ETH (at a fixed exchange rate of 1000:1) to pay UbiTok.io exchange fees on all UbiTok.io markets that have ETH as a currency (base or counter).
 
-Example 3: You prefer to pay fees using your UBI tokens, so you deposit 10 UBI into the FOO/ETH book contract to cover future fees. You then sell some FOO tokens for 100 ETH. Instead of 0.05 ETH being deducted from your 100 ETH, 5 UBI is deducted from your UBI balance.
+Example 3: You prefer to pay fees using your UBI tokens, so you deposit 200 UBI into the FOO/ETH book contract to cover future fees. You then sell some FOO tokens for 100 ETH. Instead of 0.05 ETH being deducted from your 100 ETH, 50 UBI is deducted from your UBI balance.
 
 Fees paid by traders are held in the book contract on behalf of the contract creator.
 
@@ -112,6 +112,8 @@ If this occurs for an order-related transaction then clients may see odd behavio
 We are working with the Ethereum development community to establish and apply best practices for how to shield clients from this uncertainty, or to convey it meaningfully. Unfortunately the approach taken by centralized exchanges to wait for a certain number of confirmations on deposit doesn't work on-chain - it's not just deposits that can be reverted.
 
 For now, we recommend clients mitigate against this risk by waiting several Ethereum blocks (e.g. 12 blocks) before treating a trade or order state as final. This is particularly important for clients arbitraging between UbiTok.io and off-chain exchanges.
+
+Clients should be aware that pending transactions are visible to other Ethereum nodes, and that it is possible for Ethereum miners to re-order pending transactions.
 
 ### New Book Formation
 

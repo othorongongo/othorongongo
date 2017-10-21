@@ -10,9 +10,9 @@ title: Help!
  - [Depositing Tokens and Selling them using MetaMask](depositing-tokens-and-selling-using-metamask)
  - [Depositing Tokens and Selling them using MyEtherWallet](depositing-tokens-and-selling-using-myetherwallet)
  
-### Trading Rules and Order Types
+### Trading Rules, Fees, and Order Types
 
- - [Our Trading Rules cover the types of orders offered](../trading-rules), and how they behave, plus some important warnings.
+ - [Our Trading Rules cover the types of orders offered](../trading-rules), how they behave, the fees charged, plus some important warnings.
 
 ### About Us, Roadmap, and More
 
