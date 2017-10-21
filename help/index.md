@@ -12,7 +12,7 @@ title: Help!
  
 ### Trading Rules, Fees, and Order Types
 
- - [Our Trading Rules cover the types of orders offered](../trading-rules), how they behave, the fees charged, plus some important warnings.
+ - [Our Trading Rules](../trading-rules) cover the types of orders offered, how they behave, the fees charged, plus some important warnings.
 
 ### About Us, Roadmap, and More
 
