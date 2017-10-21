@@ -33,6 +33,7 @@ The following products are undergoing beta testing on the main-net:
 |BNT-ETH|[Bancor](https://coinmarketcap.com/assets/bancor/)|smart reserves|
 |BAT-ETH|[Basic Attention Token](https://coinmarketcap.com/assets/basic-attention-token/)|advertising|
 |DNT-ETH|[District0x](https://coinmarketcap.com/assets/district0x/)|virtual organizations and communities|
+|eBTC-ETH|[eBTC](https://www.ebtctoken.org/)|currency|
 |EVM-ETH|[Ethereum Movie Venture](https://coinmarketcap.com/assets/ethereum-movie-venture/)|movies|
 |DICE-ETH|[Etheroll](https://coinmarketcap.com/assets/etheroll/)|gambling|
 |MLN-ETH|[Melon](https://coinmarketcap.com/assets/melon/)|fund management|
