@@ -34,4 +34,4 @@ So from organizations requesting their currently somewhat unknown token to be li
 
 ### Contact Us
 
-To get a token listed, send an email to help@ubitok.io or raise an issue in [our github repo](https://github.com/bonnag/ubitok.io). Make sure you let us know the token Etherum address you want listed!
+To get a token listed, send an email to help@ubitok.io or raise an issue in [our github repo](https://github.com/bonnag/ubitok.io). Make sure you let us know the Ethereum address of the token you want listed!
