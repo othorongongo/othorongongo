@@ -29,7 +29,7 @@ It's not clear for less well-known tokens with little trading volume whether the
 
 So from organizations requesting their currently somewhat unknown token to be listed, we would appreciate one or more of:
  - a small donation of ETH or your token to our address 0x884378D7919125BDfd337145d871a1bA2a58c0E9 ;
- - a link back to UbiTok.io from your website (we have some logos in our [UbiTok.io Branding and Press Kit](../img/ubitok-brading-press-kit.zip));
+ - a link back to UbiTok.io from your website (we have some logos in our [UbiTok.io Branding and Press Kit](../../img/ubitok-branding-press-kit.zip));
  - some sort of announcement to your followers / subscribers ("ACME Token now listed on UbiTok.io, the unstoppable Ethereum exchange ...").
 
 ### Contact Us
