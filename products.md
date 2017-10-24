@@ -36,6 +36,7 @@ The following products are undergoing beta testing on the main-net:
 |eBTC-ETH|[eBTC](https://www.ebtctoken.org/)|currency|
 |EVM-ETH|[Ethereum Movie Venture](https://coinmarketcap.com/assets/ethereum-movie-venture/)|movies|
 |DICE-ETH|[Etheroll](https://coinmarketcap.com/assets/etheroll/)|gambling|
+|FLIP-ETH|[EtherFlip](http://www.etherflip.co/)|gambling|
 |MLN-ETH|[Melon](https://coinmarketcap.com/assets/melon/)|fund management|
 |MYST-ETH|[Mysterium](https://coinmarketcap.com/assets/mysterium/)|networking|
 |OMG-ETH|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
