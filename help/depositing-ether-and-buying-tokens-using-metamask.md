@@ -50,7 +50,7 @@ Now we have an "Exchange" ETH balance, we're going to use it to buy 4 OMG tokens
 
 We'll make sure 'Buy OMG' is selected, enter the number of tokens we want to buy in the amount box, fill in the price box by clicking the price we want, then choose the default terms of "Good Till Cancel (no gas topup)".
 
-"Good Till Cancel" means that even if the offer we saw disappears, our order to buy will still stand - it will be added to the book and (hopefully) filled by someone else. If we don't want that, we could choose "Immediate or Cancel". Full details of terms and order statuses are covered in our ![Trading Rules](../../trading-rules).
+"Good Till Cancel" means that even if the offer we saw disappears, our order to buy will still stand - it will be added to the book and (hopefully) filled by someone else. If we don't want that, we could choose "Immediate or Cancel". Full details of terms and order statuses are covered in our [Trading Rules](../../trading-rules).
 
 When we click 'Place Buy Order', MetaMask will pop-up its "Confirm Transaction" screen - check the details look sensible and click Confirm.
 
