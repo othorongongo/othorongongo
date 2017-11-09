@@ -50,4 +50,4 @@ Unfortunately, unless we're missing something, there's no library that quite doe
 
 [ethers.js](https://github.com/ethers-io/ethers.js) - Similar to web3.js, has more wallet management built in and a nicer API. Part of the [ethers.io](https://docs.ethers.io/ethers-app/html/) system to make building DApps easier.
 
-We'd love to hear about other DApp developers' experiences in this area, and any libraries we've missed ...
+We'd love to hear about other DApp developers' experiences in this area, and any libraries we've missed ... we've started a [reddit thread here](https://www.reddit.com/r/ethdev/comments/7bpngr/offering_choice_of_wallets_like_metamask_trezor/).
