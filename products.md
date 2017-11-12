@@ -37,6 +37,7 @@ subtitle: books offered on the UbiTok.io exchange
 |BNT-ETH|[Bancor](https://coinmarketcap.com/assets/bancor/)|smart reserves|
 |BAT-ETH|[Basic Attention Token](https://coinmarketcap.com/assets/basic-attention-token/)|advertising|
 |DNT-ETH|[District0x](https://coinmarketcap.com/assets/district0x/)|virtual organizations and communities|
+|ELTCOIN-ETH|[Eltcoin](https://coinmarketcap.com/currencies/eltcoin/)|financial sovereignty|
 |EVM-ETH|[Ethereum Movie Venture](https://coinmarketcap.com/assets/ethereum-movie-venture/)|movies|
 |DICE-ETH|[Etheroll](https://coinmarketcap.com/assets/etheroll/)|gambling|
 |FLIP-ETH|[EtherFlip](http://www.etherflip.co/)|gambling|
