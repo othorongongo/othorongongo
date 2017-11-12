@@ -44,4 +44,4 @@ subtitle: books offered on the UbiTok.io exchange
 |MYST-ETH|[Mysterium](https://coinmarketcap.com/assets/mysterium/)|networking|
 |SNT-ETH|[Status](https://coinmarketcap.com/assets/status/)|mobile|
 
-Do contact us if you'd like a particular token added.
+[Do contact us if you'd like a particular token added](/help/listing-a-token/).
