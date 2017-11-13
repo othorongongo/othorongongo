@@ -10,6 +10,7 @@ subtitle: books offered on the UbiTok.io exchange
 |------|----|----|
 |[BOLD-ETH](http://ubitok.io/exchange/?pairId=BOLD-ETH)|[Bold](http://www.boldtoken.io/)|decentralized, strong, rewarding|
 |[eBTC-ETH](http://ubitok.io/exchange/?pairId=eBTC-ETH)|[eBTC](https://coinmarketcap.com/currencies/ebtcnew/)|currency|
+|[ELTCOIN-ETH](http://ubitok.io/exchange/?pairId=ELTCOIN-ETH)|[Eltcoin](https://coinmarketcap.com/currencies/eltcoin/)|financial sovereignty|
 |[OMG-ETH](http://ubitok.io/exchange/?pairId=OMG-ETH)|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
 |[SALT-ETH](http://ubitok.io/exchange/?pairId=SALT-ETH)|[SALT](https://coinmarketcap.com/assets/salt/)|lending|
 |[STORJ-ETH](http://ubitok.io/exchange/?pairId=STORJ-ETH)|[Storj](https://coinmarketcap.com/assets/storj/)|storage|
@@ -37,7 +38,6 @@ subtitle: books offered on the UbiTok.io exchange
 |BNT-ETH|[Bancor](https://coinmarketcap.com/assets/bancor/)|smart reserves|
 |BAT-ETH|[Basic Attention Token](https://coinmarketcap.com/assets/basic-attention-token/)|advertising|
 |DNT-ETH|[District0x](https://coinmarketcap.com/assets/district0x/)|virtual organizations and communities|
-|ELTCOIN-ETH|[Eltcoin](https://coinmarketcap.com/currencies/eltcoin/)|financial sovereignty|
 |EVM-ETH|[Ethereum Movie Venture](https://coinmarketcap.com/assets/ethereum-movie-venture/)|movies|
 |DICE-ETH|[Etheroll](https://coinmarketcap.com/assets/etheroll/)|gambling|
 |FLIP-ETH|[EtherFlip](http://www.etherflip.co/)|gambling|
