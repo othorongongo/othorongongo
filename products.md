@@ -14,6 +14,7 @@ subtitle: books offered on the UbiTok.io exchange
 |[OMG-ETH](http://ubitok.io/exchange/?pairId=OMG-ETH)|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
 |[SALT-ETH](http://ubitok.io/exchange/?pairId=SALT-ETH)|[SALT](https://coinmarketcap.com/assets/salt/)|lending|
 |[STORJ-ETH](http://ubitok.io/exchange/?pairId=STORJ-ETH)|[Storj](https://coinmarketcap.com/assets/storj/)|storage|
+|[WOCO-ETH](http://ubitok.io/exchange/?pairId=WOCO-ETH)|[WomenCoin](http://womencoin.udo.tattoo/)|currency|
 
 ## Cross-chain Products
 
