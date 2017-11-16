@@ -18,19 +18,21 @@ We're happy to list most tokens on UbiTok.io, here's what we look for before add
 - listed on other exchange(s);
 - token has some trading volume.
 
-### Minor Tokens
+### Low volume Tokens
+
+We're happy to list well-known, high-volume tokens straight away for our clients.
 
 The cost for us at UbiTok.io of adding a token involves:
- - approx 0.07 ETH (~ $20 USD) in gas costs to create the book contract;
+ - approx 0.05 ETH (~ $15 USD) in gas costs to create a book contract;
  - similar gas costs again when/if the book contract needs upgrading;
  - an hour or so of our time to check the token's reputation and ERC20 implementation.
 
 It's not clear for less well-known tokens with little trading volume whether the fees we'd get from clients trading the token on UbiTok.io would ever cover these costs.
 
-So from organizations requesting their currently somewhat unknown token to be listed, we would appreciate one or more of:
- - a small donation of ETH or your token to our address 0x884378D7919125BDfd337145d871a1bA2a58c0E9 ;
+So from organizations requesting their own currently little-known token to be listed, we would appreciate one or more of:
+ - a small donation of ETH or your token to our address 0x884378D7919125BDfd337145d871a1bA2a58c0E9;
  - a link back to UbiTok.io from your website (we have some logos in our [UbiTok.io Branding and Press Kit](../../img/ubitok-branding-press-kit.zip));
- - some sort of announcement to your followers / subscribers ("ACME Token now listed on UbiTok.io, the unstoppable Ethereum exchange ...").
+ - some sort of announcement to your followers / subscribers ("ACME Token now listed on UbiTok.io, the unstoppable Ethereum exchange ...") - on twitter we're [@ubitok_io](https://twitter.com/ubitok_io).
 
 ### Contact Us
 
