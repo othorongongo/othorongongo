@@ -11,6 +11,8 @@ subtitle: books offered on the UbiTok.io exchange
 |[BOLD-ETH](http://ubitok.io/exchange/?pairId=BOLD-ETH)|[Bold](http://www.boldtoken.io/)|decentralized, strong, rewarding|
 |[eBTC-ETH](http://ubitok.io/exchange/?pairId=eBTC-ETH)|[eBTC](https://coinmarketcap.com/currencies/ebtcnew/)|currency|
 |[ELTCOIN-ETH](http://ubitok.io/exchange/?pairId=ELTCOIN-ETH)|[Eltcoin](https://coinmarketcap.com/currencies/eltcoin/)|financial sovereignty|
+|[ETHFM-ETH](http://ubitok.io/exchange/?pairId=ETHFM-ETH)|[ETHFM](https://ethereumfundme.com/)|crowdfunding|
+|[EXMR-ETH](http://ubitok.io/exchange/?pairId=EXMR-ETH)|[EXMR](https://exmr.io/)|currency|
 |[GEN-ETH](http://ubitok.io/exchange/?pairId=GEN-ETH)|[Genesis](http://genesiscoin.io/)|currency|
 |[OMG-ETH](http://ubitok.io/exchange/?pairId=OMG-ETH)|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
 |[SALT-ETH](http://ubitok.io/exchange/?pairId=SALT-ETH)|[SALT](https://coinmarketcap.com/assets/salt/)|lending|

@@ -71,7 +71,7 @@ We're confident though that the Ethereum Foundation and other Ethereum developer
 
 ### Transparency and Fairness
 
-UbiTok.io does well here - our source code can be examined on github, and the smart contract enforces price-time priority for orders. There's no special treatment for preferred clients or any way to spoof orders that aren't backed by real funds. UbiTok.io is somewhat reliant on the fairness of the Ethereum miners though.
+UbiTok.io does well here - all our source code can be examined on github, and the smart contract enforces price-time priority for orders. There's no special treatment for preferred clients or any way to spoof orders that aren't backed by real funds. UbiTok.io is somewhat reliant on the fairness of the Ethereum miners though.
 
 EtherDelta loses out a little here for not making source available for their user interface or their order book maintenance code. It is somewhat vulnerable to market abuse such as spoofing, since clients can place more orders into the book than they have funds to cover.
 
