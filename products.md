@@ -10,6 +10,7 @@ subtitle: books offered on the UbiTok.io exchange
 |------|----|----|
 |[BOLD-ETH](http://ubitok.io/exchange/?pairId=BOLD-ETH)|[Bold](http://www.boldtoken.io/)|decentralized, strong, rewarding|
 |[eBTC-ETH](http://ubitok.io/exchange/?pairId=eBTC-ETH)|[eBTC](https://coinmarketcap.com/currencies/ebtcnew/)|currency|
+|[EBCH-ETH](http://ubitok.io/exchange/?pairId=EBCH-ETH)|[eBitcoinCash](https://coinmarketcap.com/currencies/ebitcoin-cash/)|currency|
 |[ELTCOIN-ETH](http://ubitok.io/exchange/?pairId=ELTCOIN-ETH)|[Eltcoin](https://coinmarketcap.com/currencies/eltcoin/)|financial sovereignty|
 |[ETHFM-ETH](http://ubitok.io/exchange/?pairId=ETHFM-ETH)|[ETHFM](https://ethereumfundme.com/)|crowdfunding|
 |[EXMR-ETH](http://ubitok.io/exchange/?pairId=EXMR-ETH)|[EXMR](https://exmr.io/)|currency|
@@ -17,6 +18,7 @@ subtitle: books offered on the UbiTok.io exchange
 |[OMG-ETH](http://ubitok.io/exchange/?pairId=OMG-ETH)|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
 |[SALT-ETH](http://ubitok.io/exchange/?pairId=SALT-ETH)|[SALT](https://coinmarketcap.com/assets/salt/)|lending|
 |[STORJ-ETH](http://ubitok.io/exchange/?pairId=STORJ-ETH)|[Storj](https://coinmarketcap.com/assets/storj/)|storage|
+|[TDM-ETH](http://ubitok.io/exchange/?pairId=TDM-ETH)|[Token of Digital Money](http://tokenofdigitalmoney.com/)|currency|
 |[WOCO-ETH](http://ubitok.io/exchange/?pairId=WOCO-ETH)|[WomenCoin](http://womencoin.udo.tattoo/)|currency|
 
 ## Cross-chain Products
@@ -47,6 +49,7 @@ subtitle: books offered on the UbiTok.io exchange
 |FLIP-ETH|[EtherFlip](http://www.etherflip.co/)|gambling|
 |MLN-ETH|[Melon](https://coinmarketcap.com/assets/melon/)|fund management|
 |MYST-ETH|[Mysterium](https://coinmarketcap.com/assets/mysterium/)|networking|
+|POWR-ETH|[PowerLedger](https://coinmarketcap.com/currencies/power-ledger/)|electricity|
 |SNT-ETH|[Status](https://coinmarketcap.com/assets/status/)|mobile|
 
 [Do contact us if you'd like a particular token added](/help/listing-a-token/).
