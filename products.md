@@ -14,12 +14,15 @@ subtitle: books offered on the UbiTok.io exchange
 |[ELTCOIN-ETH](http://ubitok.io/exchange/?pairId=ELTCOIN-ETH)|[Eltcoin](https://coinmarketcap.com/currencies/eltcoin/)|financial sovereignty|
 |[ETHFM-ETH](http://ubitok.io/exchange/?pairId=ETHFM-ETH)|[ETHFM](https://ethereumfundme.com/)|crowdfunding|
 |[EXMR-ETH](http://ubitok.io/exchange/?pairId=EXMR-ETH)|[EXMR](https://exmr.io/)|currency|
+|[FUDD-ETH](http://ubitok.io/exchange/?pairId=FUDD-ETH)|[FUDD](https://dimoncoin.org/)|FUD decentralized|
 |[GEN-ETH](http://ubitok.io/exchange/?pairId=GEN-ETH)|[Genesis](http://genesiscoin.io/)|currency|
 |[OMG-ETH](http://ubitok.io/exchange/?pairId=OMG-ETH)|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
+|[RBTC-ETH](http://ubitok.io/exchange/?pairId=RBTC-ETH)|[Bitcoin Revolution](https://www.bitcoinrevolution.site/)|currency|
 |[SALT-ETH](http://ubitok.io/exchange/?pairId=SALT-ETH)|[SALT](https://coinmarketcap.com/assets/salt/)|lending|
 |[STORJ-ETH](http://ubitok.io/exchange/?pairId=STORJ-ETH)|[Storj](https://coinmarketcap.com/assets/storj/)|storage|
 |[TDM-ETH](http://ubitok.io/exchange/?pairId=TDM-ETH)|[Token of Digital Money](http://tokenofdigitalmoney.com/)|currency|
 |[WOCO-ETH](http://ubitok.io/exchange/?pairId=WOCO-ETH)|[WomenCoin](http://womencoin.udo.tattoo/)|currency|
+|[YOLO-ETH](http://ubitok.io/exchange/?pairId=YOLO-ETH)|[YOLOCOIN](https://www.ethyolo.com/)|first Filipino cryptocurrency|
 
 ## Cross-chain Products
 
