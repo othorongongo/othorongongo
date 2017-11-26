@@ -18,7 +18,7 @@ We're happy to list most tokens on UbiTok.io, here's what we look for before add
 - listed on other exchange(s);
 - token has some trading volume.
 
-### Low Volume Tokens
+### Lower Volume Tokens
 
 We're happy to list well-known, high-volume tokens straight away for our clients.
 
