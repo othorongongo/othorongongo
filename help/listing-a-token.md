@@ -8,15 +8,15 @@ We're happy to list most tokens on UbiTok.io, here's what we look for before add
 ### Must Haves
 
 - token contract has verified source code;
-- token contract appears to implements the ERC20 interface correctly;
-- token doesn't seem to be a scam;
+- token contract implements the ERC20 interface correctly;
+- token has a fixed total supply (that is, new tokens cannot be created after listing);
+- token is not a scam and does not promote illegal activities;
 
 ### Nice to Haves
 
 - token listed on coinmarketcap.com;
 - a reputation of "Neutral" or better for the token on etherscan.io;
-- listed on other exchange(s);
-- token has some trading volume.
+- token is listed on other exchange(s) and has some trading volume.
 
 ### Lower Volume Tokens
 
