@@ -8,7 +8,7 @@ subtitle: books offered on the UbiTok.io exchange
 
 |UbiTok.io Book|CoinMarketCap / Website|Description|
 |------|----|----|
-|[AXYS-ETH](http://ubitok.io/exchange/?pairId=BOLD-ETH)|[Axys](https://www.axysblockchain.co/)|hospitality|
+|[AXYS-ETH](http://ubitok.io/exchange/?pairId=AXYS-ETH)|[Axys](https://www.axysblockchain.co/)|hospitality|
 |[BOLD-ETH](http://ubitok.io/exchange/?pairId=BOLD-ETH)|[Bold](http://www.boldtoken.io/)|decentralized, strong, rewarding|
 |[BTCL-ETH](http://ubitok.io/exchange/?pairId=BTCL-ETH)|[BTC LITE](http://btclite.org/)|currency|
 |[eBTC-ETH](http://ubitok.io/exchange/?pairId=eBTC-ETH)|[eBTC](https://coinmarketcap.com/currencies/ebtcnew/)|currency|
