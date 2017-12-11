@@ -73,6 +73,17 @@ Example 3: You prefer to pay fees using your UBI tokens, so you deposit 200 UBI 
 
 Fees paid by traders are held in the book contract on behalf of the contract creator.
 
+### Fees and Gas Summary
+
+|Action|UbiTok.io Fee|Ethereum Gas Amount|
+|Deposit Eth|none|100,000|
+|Deposit Token|none|200,000|
+|Withdraw Eth|none|100,000|
+|Withdraw Token|none|100,000|
+|Place Order (Maker-Only)|none|300,000|
+|Place Order (GTC / IoC)|0.05% of liquidity taken|300,000 + 100,000 for each order matched|
+|Cancel Order|none|150,000|
+
 ### Order Lifecycle
 
 Orders have a Status, which can be one of:

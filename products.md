@@ -8,7 +8,9 @@ subtitle: books offered on the UbiTok.io exchange
 
 |UbiTok.io Book|CoinMarketCap / Website|Description|
 |------|----|----|
+|[AXYS-ETH](http://ubitok.io/exchange/?pairId=BOLD-ETH)|[Axys](https://www.axysblockchain.co/)|hospitality|
 |[BOLD-ETH](http://ubitok.io/exchange/?pairId=BOLD-ETH)|[Bold](http://www.boldtoken.io/)|decentralized, strong, rewarding|
+|[BTCL-ETH](http://ubitok.io/exchange/?pairId=BTCL-ETH)|[BTC LITE](http://btclite.org/)|currency|
 |[eBTC-ETH](http://ubitok.io/exchange/?pairId=eBTC-ETH)|[eBTC](https://coinmarketcap.com/currencies/ebtcnew/)|currency|
 |[EBCH-ETH](http://ubitok.io/exchange/?pairId=EBCH-ETH)|[eBitcoinCash](https://coinmarketcap.com/currencies/ebitcoin-cash/)|currency|
 |[ELTCOIN-ETH](http://ubitok.io/exchange/?pairId=ELTCOIN-ETH)|[Eltcoin](https://coinmarketcap.com/currencies/eltcoin/)|financial sovereignty|
@@ -17,7 +19,9 @@ subtitle: books offered on the UbiTok.io exchange
 |[FUDD-ETH](http://ubitok.io/exchange/?pairId=FUDD-ETH)|[FUDD](https://dimoncoin.org/)|FUD decentralized|
 |[GEN-ETH](http://ubitok.io/exchange/?pairId=GEN-ETH)|[Genesis](http://genesiscoin.io/)|currency|
 |[GOAL-ETH](http://ubitok.io/exchange/?pairId=GOAL-ETH)|[Goal Bonanza](https://goalbonanza.com/ico/en/)|sports lottery|
+|[HYTV-ETH](http://ubitok.io/exchange/?pairId=HYTV-ETH)|[HyperTV](https://www.hypertvtoken.info/)|watch worldwide tv|
 |[OMG-ETH](http://ubitok.io/exchange/?pairId=OMG-ETH)|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
+|[PBIT-ETH](http://ubitok.io/exchange/?pairId=PBIT-ETH)|[PeraBit](http://www.perabitcoin.com/)|online retail transactions|
 |[RBTC-ETH](http://ubitok.io/exchange/?pairId=RBTC-ETH)|[Bitcoin Revolution](https://www.bitcoinrevolution.site/)|currency|
 |[SALT-ETH](http://ubitok.io/exchange/?pairId=SALT-ETH)|[SALT](https://coinmarketcap.com/assets/salt/)|lending|
 |[SSN-ETH](http://ubitok.io/exchange/?pairId=SSN-ETH)|[Ssente](https://www.ssente.site/)|money transfer|
