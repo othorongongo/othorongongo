@@ -11,6 +11,7 @@ subtitle: books offered on the UbiTok.io exchange
 |[AXYS-ETH](http://ubitok.io/exchange/?pairId=AXYS-ETH)|[Axys](https://www.axysblockchain.co/)|hospitality|
 |[BOLD-ETH](http://ubitok.io/exchange/?pairId=BOLD-ETH)|[Bold](http://www.boldtoken.io/)|decentralized, strong, rewarding|
 |[BTCL-ETH](http://ubitok.io/exchange/?pairId=BTCL-ETH)|[BTC LITE](http://btclite.org/)|currency|
+|[EAGLE-ETH](http://ubitok.io/exchange/?pairId=EAGLE-ETH)|[EagleCoin](https://eaglepay.io/)|payment gateway|
 |[eBTC-ETH](http://ubitok.io/exchange/?pairId=eBTC-ETH)|[eBTC](https://coinmarketcap.com/currencies/ebtcnew/)|currency|
 |[EBCH-ETH](http://ubitok.io/exchange/?pairId=EBCH-ETH)|[eBitcoinCash](https://coinmarketcap.com/currencies/ebitcoin-cash/)|currency|
 |[ELTCOIN-ETH](http://ubitok.io/exchange/?pairId=ELTCOIN-ETH)|[Eltcoin](https://coinmarketcap.com/currencies/eltcoin/)|financial sovereignty|
