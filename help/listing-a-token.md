@@ -3,7 +3,13 @@ layout: page
 title: Listing new Tokens on UbiTok.io
 ---
 
-We're happy to list most tokens on UbiTok.io, here's what we look for before adding a token:
+~~We're happy to list most tokens on UbiTok.io~~
+
+UbiTok.io is *not listing any new tokens at the moment*, we're proud of our totally decentralized technology but unfortunately the gas costs for placing orders are proving unattractive to clients so we're not seeing much liquidity.
+
+We will review the situation in the new year and post an update then.
+
+If listing does resume, here's what we look for before adding a token:
 
 ### Must Haves
 
