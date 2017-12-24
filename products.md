@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Products
-subtitle: books offered on the UbiTok.io exchange
+subtitle: books offered on the other exchange
 ---
 
 ## Live Products
 
-|UbiTok.io Book|CoinMarketCap / Website|Description|
+|TRADE Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |[AXYS-ETH](http://ubitok.io/exchange/?pairId=AXYS-ETH)|[Axys](https://www.axysblockchain.co/)|hospitality|
 |[BOLD-ETH](http://ubitok.io/exchange/?pairId=BOLD-ETH)|[Bold](http://www.boldtoken.io/)|decentralized, strong, rewarding|
@@ -33,13 +33,13 @@ subtitle: books offered on the UbiTok.io exchange
 
 ## Cross-chain Products
 
-|UbiTok.io Book|CoinMarketCap / Website|Description|
+|TRADE Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |ETH-BTCU|Coming soon - full reserve tokens|Bitcoin asset token|
 
 ## Test Products
 
-|UbiTok.io Book|CoinMarketCap / Website|Description|
+|TRADE Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |[DEMO-ETH](http://ubitok.io/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
 |[TESTR-ETH](http://ubitok.io/exchange/?pairId=TESTR-ETH&vu=1)|n/a|play-money book on "Ropsten" testnet|
@@ -47,7 +47,7 @@ subtitle: books offered on the UbiTok.io exchange
 
 ## Products Coming Soon
 
-|UbiTok.io Book|CoinMarketCap / Website|Description|
+|TRADE Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |ZRX-ETH|[0x](https://coinmarketcap.com/assets/0x/)|trading|
 |REP-ETH|[Augur](https://coinmarketcap.com/assets/augur/)|prediction markets|
