@@ -3,7 +3,7 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-url: "https://ubitok.io"
+url: ""
 baseurl: "exchange/"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
@@ -12,13 +12,13 @@ baseurl: "exchange/"
 title: UbiTok.io
 
 # Short description of your site
-description: the unstoppable Ethereum exchange
+description: the modod unstoppable Ethereum exchange
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "https://ubitok.io"
+  Home: "https://othorongongo.github.io"
   Blog: "blog"
   Exchange: "products"
   Help: "help"
